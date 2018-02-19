@@ -13,9 +13,9 @@ This demo comprises four repos:
 ```
 mkdir cna-demo
 cd cna-demo
-git clone https://github.com/ciberkleid/cna-demo-setup.git
-git clone https://github.com/ciberkleid/fortune-service.git
-git clone https://github.com/ciberkleid/greeting-ui.git
+git clone https://github.com/dcaron/cna-demo-setup.git
+git clone https://github.com/dcaron/fortune-service.git
+git clone https://github.com/dcaron/greeting-ui.git
 ```
 
 2. Use the cf CLI to target the space to which you wish to deploy.
