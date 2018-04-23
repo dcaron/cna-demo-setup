@@ -2,10 +2,10 @@
 Easy to set up cloud-native architecture demo for PCF. Consists of two apps, greeting-ui and fortune-service, and a database used by fortune-service. Can be used to demo all three services in Spring Cloud Services, container to container networking, and distributed tracing in PCF Metrics.
 
 This demo comprises four repos:
-* https://github.com/ciberkleid/cna-demo-setup.git - Set up instructions and deployment scripts
-* https://github.com/ciberkleid/fortune-service.git - Backend service, returns fortunes
-* https://github.com/ciberkleid/greeting-ui.git - Front-end service, displays fortunes
-* https://github.com/ciberkleid/app-config - Config repo
+* https://github.com/dcaron/cna-demo-setup.git - Set up instructions and deployment scripts
+* https://github.com/dcaron/fortune-service.git - Backend service, returns fortunes
+* https://github.com/dcaron/greeting-ui.git - Front-end service, displays fortunes
+* https://github.com/dcaron/app-config - Config repo
 
 # instructions
 
@@ -29,7 +29,7 @@ cd cna-demo-setup
 Answer the prompts from the script:
 
 * Provide the git address to back the Config Server
-    * The default value is https://github.com/ciberkleid/app-config. If you wish to set or change config values, fork this repo and enter the new value.
+    * The default value is https://github.com/dcaron/app-config. If you wish to set or change config values, fork this repo and enter the new value.
 * Choose whether or not to leverage container-to-container networking
     * If 'Y', make sure you have the cf CLI 'network-policy-plugin' installed (see https://docs.pivotal.io/pivotalcf/1-11/devguide/deploy-apps/cf-networking.html).
     * Note that at this time, you must set C2C=N in order to demo distributed tracing in PCF Metrics.
